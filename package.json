@@ -1,0 +1,22 @@
+{
+  "name": "vente_de_terrain",
+  "version": "1.0.0",
+  "description": "api vente de terrain",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/rinelfi-git/vente-de-terrain-node.git"
+  },
+  "author": "Rinelfi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rinelfi-git/vente-de-terrain-node/issues"
+  },
+  "homepage": "https://github.com/rinelfi-git/vente-de-terrain-node#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
