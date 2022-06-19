@@ -21,7 +21,7 @@ route.get('/', async (request, response) => {
         response.status(300).json({success: false, content: error});
     });
 }).delete('/:id', (request, response) => {
-    client_model.updateOne({ _id: request.params['id'] }, { $set: request.body }).then(data => {
+    client_model.deleteOne({ _id: request.params['id'] }).then(data => {
         response.status(200).json({success: true, content: data});
     }).catch(error => {
         response.status(300).json({success: false, content: error});

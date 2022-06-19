@@ -1,1 +1,3 @@
 node_modules/
+uploads/
+!/uploads/images/clients/default.png
